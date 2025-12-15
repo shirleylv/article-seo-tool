@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# 日志和临时文件
+*.log
+logs/*.log
+
+# 数据文件（不包含在镜像中，使用volume挂载）
+uploads/*
+outputs/*
+history/*.csv
+!history/.gitkeep
+
+# 文档（可选，如果需要可以保留）
+# *.md
+
+# 测试文件
+test_*.py
+__pycache__/
+
+# 环境变量文件（通过volume挂载）
+.env.example
+
